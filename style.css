@@ -5,7 +5,13 @@ body{
     margin: 0;
     padding: 0;
 }
-
+p{
+    font-size: 14px;
+    font-family: Poppins;
+}
+.text-white{
+    color: white;
+}
 .flexible-container{
     display: flex;
     margin-bottom: 50px;
@@ -17,7 +23,6 @@ body{
 .top-div{
     border-left: 2px solid rgb(255, 71, 200);
     padding-left: 5px;
-    
 }
 .blue-color{
     color: rgb(67, 59, 179);
@@ -32,12 +37,10 @@ body{
     padding: 12px;
     border-radius: 5px;
 }
-
 .half-width{
     width: 50%;
     padding: 2%;
 }
-
 .half-width img{
     width: 65%;
 }
@@ -56,17 +59,42 @@ body{
 .mission-card{
     padding-top: 10px;  
 }
-
 .mission-items{
     margin-left: 10px;
     padding-left: 7px;
     font-family: Poppins;
-    border: 2px solid tomato;
     border-radius: 26px;
 }
-.mission-items p{
-    font-size: 12px;
-}
+
 .mission-items img{
     width: 45%;
 }
+.developer-img{
+    
+    margin-left: 50px;
+    background-image: url(./images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.developer-intro{
+    padding-right: 180px;
+}
+.global-community{
+    padding: 80px;
+}
+.team-img{
+    padding-right: 50px;
+    background-image: url(./images/shapes/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-image-slice:3;
+}
+.about-me{
+    margin: auto;
+}
+footer{
+    text-align: center;
+    background: black;
+    padding: 20px;
+}
+
